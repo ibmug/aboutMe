@@ -1,7 +1,7 @@
 body {
     color: #222222;
     font-size: 1em;
-    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     background-color:#5A799E;
 }
 
@@ -18,11 +18,24 @@ body {
   background-repeat: no-repeat;
 }
 
+
+.masthead:hover {
+  padding: 6em 0;
+  background-image: url('../img/code.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .masthead-intro {
     margin-bottom: 0.1em;
     font-size: 2em;
     color: #ffffff;
 }
+
+.masthead-intro:hover{
+  color:yellow;
+}
+
 
 .masthead-heading {
     margin-top: -0.2em;
@@ -32,6 +45,11 @@ body {
     text-transform: uppercase;
     color: #ffffff;
 }
+
+.masthead-heading:hover{
+  color:yellow;
+}
+
 
 .details {
     max-width: 38em;
@@ -61,6 +79,12 @@ section > h1 {
   text-align: center;
   background-color: #111111;
   text-decoration: none;
+}
+
+
+.a:hover {
+  background-image: url('../img/luffy.jpg');
+  background-repeat:no-repeat;
 }
 
 #footer a {
